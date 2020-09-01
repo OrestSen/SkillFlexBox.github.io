@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +7,22 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header class="header">
         <div class="container">
             <div class="row header-row">
-                <div class="col-xs-12 col-md-3">
+                <div class="col-md-3">
                     <div class="logo">
                         <a href="">
-                            <img src="images/logo.jpg" alt="">
+                            <img src="images/modest.png" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-7">
-                    <nav class="navigation">
+                <div class="col-md-7">
+                    <nav class="navigation hidden-menu">
                         <ul class="menu">
                             <li><a href="">Home</a></li>
                             <li><a href="">About</a></li>
@@ -34,10 +33,19 @@
                             <li><a href="">Contact</a></li>
                         </ul>
                     </nav>
+                    <div class="nav-mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-md-2 search">
-                    <input type="search" name="#" id="#" placeholder="SEARCH">
-                    <input type="submit" value="">
+                <div class="col-xs-12 col-md-2 ">
+                    <div class="search">
+                        <form action="">
+                            <input type="search" placeholder="SEARCH">
+                        </form>
+                            <a href="" class="search-img"></a>
+                    </div>   
                 </div>
             </div>
         </div>
@@ -201,9 +209,9 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row img-c">
                 <div class="col-md-4">
-                    <table class="table2">
+                    <table class="table2"data-aos="flip-left" data-aos-duration="900">
                         <tr>
                             <th></th>
                         </tr>
@@ -215,7 +223,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img1">
+                    <table class="table2 img1" data-aos="flip-left"data-aos-duration="1200">
                         <tr>
                             <th></th>
                         </tr>
@@ -227,7 +235,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img2">
+                    <table class="table2 img2"data-aos="flip-left"data-aos-duration="1500">
                         <tr>
                             <th></th>
                         </tr>
@@ -239,7 +247,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img3">
+                    <table class="table2 img3"data-aos="flip-left"data-aos-duration="1800">
                         <tr>
                             <th></th>
                         </tr>
@@ -251,7 +259,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img4">
+                    <table class="table2 img4"data-aos="flip-left"data-aos-duration="2100">
                         <tr>
                             <th></th>
                         </tr>
@@ -263,7 +271,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img5">
+                    <table class="table2 img5"data-aos="flip-left"data-aos-duration="2400">
                         <tr>
                             <th></th>
                         </tr>
@@ -355,7 +363,7 @@
         </div>
         <div class="container ">
             <div class="row">
-                <div class="col-md-4 service">
+                <div class="col-md-4 col-xs-12 service">
                     <img src="images/img (15).png" alt="">
                     <h3>Easy theme Setup</h3>
                     <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas
@@ -384,11 +392,9 @@
                 </div>
             </div>
         </div>
-        <div class="container-new">
-            <img src="images/img (1).png" alt="" class="responsive">
-        </div>
+        <div class="map"></div>
         <div class="container">
-            <div class="row">
+            <div class="row set1">
                 <div class="col-md-6 service">
                     <h3>Easy theme Setup</h3>
                     <p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas
@@ -398,19 +404,50 @@
                         magna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus </p>
                 </div>
                 <div class="col-md-6 service service-1">
-                    <div class="row button1  set">
+                    <div class="row set">
+                        <div class="modal">
+                            <div class="modal-block">
+                                <div>
+                                    <div class="btn-close"><img src="" alt="">X</div>
+                                    <h3>Please call for more details</h3>
+                                    <div class="form-fields">
+                                        <input type="text" placeholder="Your Name" id="">
+                                    </div>
+                                    <div class="form-fields">
+                                        <input type="text" name="" id="" placeholder="Your phone">
+                                    </div>
+                                    <button class="pleaseCall">Please call</button>
+                                </div>
+                    
+                            </div>
+                            
+                        </div>
                         <div>
-                            <button class="">SHOW ME MORE</button>
+                            <button class="button0">SHOW ME MORE</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <footer class="section-main-4 footer">
 <p>© Copyright 2014 by PSD Booster. All Rights Reserved.</p>
     </footer>
+    <div class="modal-scroll">
+        <div class="modal-block-scroll">
+                <div class="btn-close-scroll"><img src="images/x.png" alt=""></div>
+                <h3>Please call for more details</h3>
+                    <div class="form-fields">
+                        <input type="text" name="" id="" placeholder="Your name">
+                    </div>
+                    <div class="form-fields">
+                        <input type="text" name="" id="" placeholder="Your phone">
+                    </div>
+                    <button class="button00">Please Call</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
