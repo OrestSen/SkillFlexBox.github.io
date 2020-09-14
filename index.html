@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modest</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="row header-row">
                 <div class="col-md-3">
@@ -24,13 +24,13 @@
                 <div class="col-md-7">
                     <nav class="navigation hidden-menu">
                         <ul class="menu">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Work</a></li>
-                            <li><a href="">Team</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="nav-mobile-menu">
@@ -60,9 +60,8 @@
                 <button value="">VIDEO TOUR</button>
             </div>
         </div>
-
     </section>
-    <main class="main">
+    <main class="main" id="about">
         <div class="container">
             <div class="row ">
                 <div class="col-xs-12 col-md-7 col-sm-7">
@@ -126,7 +125,7 @@
         </div>
         </div>
     </main>
-    <section class="section-main">
+    <section class="section-main" id="team">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -200,7 +199,7 @@
         </div>
         </div>
     </section>
-    <section class="section-main-2">
+    <section class="section-main-2" id="work">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -211,7 +210,7 @@
         <div class="container">
             <div class="row img-c">
                 <div class="col-md-4">
-                    <table class="table2"data-aos="flip-left" data-aos-duration="900">
+                    <table class="table2 img1"data-aos="flip-left" data-aos-duration="900">
                         <tr>
                             <th></th>
                         </tr>
@@ -223,7 +222,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img1" data-aos="flip-left"data-aos-duration="1200">
+                    <table class="table2 img2" data-aos="flip-left"data-aos-duration="1200">
                         <tr>
                             <th></th>
                         </tr>
@@ -235,7 +234,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img2"data-aos="flip-left"data-aos-duration="1500">
+                    <table class="table2 img3"data-aos="flip-left"data-aos-duration="1500">
                         <tr>
                             <th></th>
                         </tr>
@@ -247,7 +246,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img3"data-aos="flip-left"data-aos-duration="1800">
+                    <table class="table2 img4"data-aos="flip-left"data-aos-duration="1800">
                         <tr>
                             <th></th>
                         </tr>
@@ -259,7 +258,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img4"data-aos="flip-left"data-aos-duration="2100">
+                    <table class="table2 img5"data-aos="flip-left"data-aos-duration="2100">
                         <tr>
                             <th></th>
                         </tr>
@@ -271,7 +270,7 @@
                     </table>
                 </div>
                 <div class="col-md-4">
-                    <table class="table2 img5"data-aos="flip-left"data-aos-duration="2400">
+                    <table class="table2 img6"data-aos="flip-left"data-aos-duration="2400">
                         <tr>
                             <th></th>
                         </tr>
@@ -292,11 +291,11 @@
             </div>
         </div>
     </section>
-    <section class="section-main-3">
+    <section class="section-main-3" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2> LOVELY WORK.</h2>
+                    <h2> SERVICES.</h2>
                 </div>
             </div>
         </div>
@@ -353,7 +352,7 @@
             </div>
         </div>
     </section>
-    <section class="section-main-4">
+    <section class="section-main-4" id="features">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -384,7 +383,7 @@
             </div>
         </div>
     </section>
-    <section class="section-main-5">
+    <section class="section-main-5" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -408,7 +407,7 @@
                         <div class="modal">
                             <div class="modal-block">
                                 <div>
-                                    <div class="btn-close"><img src="" alt="">X</div>
+                                    <div class="btn-close">X</div>
                                     <h3>Please call for more details</h3>
                                     <div class="form-fields">
                                         <input type="text" placeholder="Your Name" id="">
@@ -447,6 +446,8 @@
         </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="jquery.nav.js"></script>
     <script src="app.js"></script>
 </body>
 

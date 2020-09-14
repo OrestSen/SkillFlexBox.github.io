@@ -78,3 +78,5 @@ modal_scroll.addEventListener("click",function(e) {
 
 // *******************************************************************************************************
 AOS.init();
+
+$('.menu').onePageNav()
