@@ -74,9 +74,25 @@ modal_scroll.addEventListener("click",function(e) {
     closeModalScr()
     }
 })
+
+// let btn_about = document.getElementById("about")
+// let section_main = document.querySelectorAll(".section_main")
+
+// function showClass() {
+//     section_main.classList.add("section-mainhide");
+// }
+
+//     function addClass() {
+//         btn_about.addEventListener("click", showClass)
+//     }
+//     addClass();
 // ********************************************************************************
 
 // *******************************************************************************************************
 AOS.init();
 
+
+
+
+    
 $('.menu').onePageNav()

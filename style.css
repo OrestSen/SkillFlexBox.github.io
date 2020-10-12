@@ -17,6 +17,11 @@ a {
 p {
     line-height: 20px;
 }
+.section-mainhide {
+    box-shadow:1px 1px 57px 21px rgba(249,101,251,0.28)inset;
+    -webkit-box-shadow:1px 1px 57px 21px rgba(249,101,251,0.28)inset;
+    -moz-box-shadow:1px 1px 57px 21px rgba(249,101,251,0.28)inset;
+}
 .header {
     background-color: #1d2126;
     position: sticky;
@@ -48,6 +53,15 @@ p {
     margin-right: -15px;
     flex-wrap: wrap;
 }
+
+.row-team  {
+    padding: 70px 0px 180px;
+    justify-content: center;
+}
+.row_service , .row_features{
+    justify-content: center;
+}
+
 
 [class*="col-"] {
     padding-left: 10px;
@@ -190,9 +204,11 @@ p {
     height: 500px;
 }
 
-.main {
-    height: 700px;
+.main__content {
     display: flex;
+    
+    padding: 15px 0px 113px;
+
 }
 .button1 {
     padding-bottom: 20px;
@@ -209,6 +225,7 @@ p {
 }
 
 .main p {
+    font-size: 20px;
     margin: 30px 0 30px;
     line-height: 1.3em;
     color: #998083;
@@ -263,9 +280,12 @@ p {
 
 .section-main {
     border-top: 1px solid #dde1e4;
-    height: 700px;
 }
 
+
+.team {
+    padding: 10px 10px;
+}
 .team table th{
     color: grey;
     background-color: #e1e6ea;
@@ -364,9 +384,7 @@ div .team img {
     background-color: #3a454d;
     color: white;
 }
-.section-main-4 .service{
-    text-align: left;
-}
+
 .section-main-5 .service{
     text-align: left;
 }

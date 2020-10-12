@@ -52,10 +52,8 @@
 /* sm - planshet*/
 @media(min-width:768px) {
     .container {
-        max-width: 720px;
-    }
-    .container {
-        max-width: 720px;
+        max-width: 800px;
+        align-self: center;
     }
     .col-sm-1 {
         flex: 0 0 8.3334%;
@@ -105,12 +103,11 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-  
 }
 /* md - laptop */
 @media(min-width:992px) {
     .container {
-        max-width: 968px;
+        max-width: 940px;
         align-self: center;
     }
     .col-md-1 {
@@ -124,7 +121,7 @@
     }
     .col-md-3 {
         flex: 0 0 25%;
-        max-width: 25%;
+        
     }
     .col-sm-3 {
         justify-content: center;
@@ -133,7 +130,7 @@
     }
     .col-md-4 {
         flex: 0 0 33.3334%;
-        max-width: 33.3334%;
+        max-width: 40.3334%;
     }
     .col-md-5 {
         align-self: center;
@@ -180,6 +177,7 @@
     }
    
    
+   
   
 }
 @media(max-width:992px) {
@@ -191,6 +189,9 @@
     }
     .navigation {
         justify-content: center;
+    }
+    .team {
+        margin-bottom: 20px;
     }
   
 }
@@ -227,6 +228,10 @@
 
 /* only mobile xs */
 @media(max-width:767px) {
+    .main__content {
+        flex-direction: column;
+        justify-content: center;
+    }
     .header-row {
         flex-direction: column;
         align-items: center;

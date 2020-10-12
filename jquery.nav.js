@@ -90,19 +90,20 @@
 			self.t = setInterval(function() {
 				docHeight = self.$doc.height();
 
-				//If it was scrolled
+				// If it was scrolled
 				if(self.didScroll) {
 					self.didScroll = false;
 					self.scrollChange();
 				}
 
-				//If the document height changes
+				// If the document height changes
 				if(docHeight !== self.docHeight) {
 					self.docHeight = docHeight;
 					self.getPositions();
 				}
 			}, 250);
 		},
+
 
 		getHash: function($link) {
 			return $link.attr('href').split('#')[1];
@@ -219,5 +220,7 @@
 			new OnePageNav(this, options).init();
 		});
 	};
+
+
 
 })( jQuery, window , document );
