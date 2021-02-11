@@ -154,7 +154,7 @@ p {
     height: 600px;
     width: 100%;
     display: flex;
-    background: url(images/img\ \(2\).png) no-repeat 50% 50%; /* Параметры фона */
+    background: url(images/img\ \(2\).png) ; /* Параметры фона */
     color: white;
     justify-content: center;
 }
